@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3ed">
+  <meta name="description" content="Thiệp cưới Nguyễn Hoàng Minh & Hoàng Thùy Dương — 28–29.11.2026">
+  <title>Nguyễn Hoàng Minh & Hoàng Thùy Dương — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Italianno&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-progress"><span id="progressBar"></span></div>
+  <div class="preloader" id="preloader"><div class="preloader-mark">M <i>&</i> D</div><span>THE WEDDING INVITATION</span></div>
+  <div class="petal-layer" id="petalLayer" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Về đầu trang">M<span>&</span>D</a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#couple">Chúng mình</a><a href="#invitation">Thiệp mời</a><a href="#gallery">Album</a><a href="#rsvp">Xác nhận</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Mở menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-photo-wrap photo-tilt" data-tilt>
+        <img class="hero-photo js-photo" src="assets/Trang 1.jpg" alt="Ảnh cưới của Nguyễn Hoàng Minh và Hoàng Thùy Dương" fetchpriority="high">
+        <div class="hero-photo-shade"></div>
+        <span class="hero-photo-caption">A day to remember · 29.11.2026</span>
+      </div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">THE WEDDING OF</p>
+        <h1>Nguyễn Hoàng Minh <em>&</em><br>Hoàng Thùy Dương</h1>
+        <div class="hero-rule"><span></span>♡<span></span></div>
+        <p class="hero-date">28 — 29 · 11 · 2026</p>
+        <p class="hero-description">Một hành trình mới bắt đầu, và chúng mình mong được chia sẻ khoảnh khắc này cùng bạn.</p>
+        <a class="button button-outline" href="#invitation">MỞ THIỆP MỜI <span>↓</span></a>
+      </div>
+      <div class="hero-side-note">WITH LOVE, MINH & DƯƠNG</div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span></div>
+      <div class="hero-actions">
+        <button class="round-tool" id="musicToggle" title="Bật nhạc nền" aria-label="Bật nhạc nền">♫<span class="sound-wave"></span></button>
+        <button class="round-tool" id="chooseMusic" title="Chọn nhạc MP3 từ thiết bị" aria-label="Chọn nhạc MP3">MP3</button>
+        <button class="round-tool" id="petalToggle" title="Bật/tắt cánh hoa" aria-label="Bật tắt cánh hoa">✿</button>
+        <button class="round-tool" id="shareInvite" title="Chia sẻ thiệp" aria-label="Chia sẻ thiệp">↗</button>
+        <input type="file" id="musicFile" accept="audio/*,.mp3,.m4a,.wav,.ogg" hidden>
+      </div>
+    </section>
+
+    <section class="intro-section section-pad" id="couple">
+      <div class="section-kicker reveal">01 · OUR STORY</div>
+      <div class="intro-heading reveal"><p class="eyebrow">TOGETHER WITH OUR FAMILIES</p><h2>Trân trọng kính mời</h2><p>Gia đình chúng mình hân hoan báo tin lễ thành hôn của hai con</p></div>
+      <div class="couple-names reveal" data-morph-scroll="type"><span>Nguyễn Hoàng Minh</span><i>&</i><span>Hoàng Thùy Dương</span></div>
+      <div class="family-grid">
+        <article class="family-card reveal" data-morph-scroll="card"><span class="family-icon">❧</span><p class="eyebrow">NHÀ TRAI</p><h3>Ông Nguyễn Xuân Mai<br>& Bà Nguyễn Thị Nguyệt</h3><p>Đường Thích Thế Long · Xã Cổ Lễ<br>Ninh Bình</p><a href="https://www.google.com/maps/search/?api=1&query=Duong+Thich+The+Long+Xa+Co+Le+Ninh+Binh+Viet+Nam" target="_blank" rel="noopener">Xem vị trí ↗</a></article>
+        <article class="family-card reveal" data-morph-scroll="card"><span class="family-icon">❧</span><p class="eyebrow">NHÀ GÁI</p><h3>Ông Hoàng Mạnh Tuấn<br>& Bà Nguyễn Thị Huệ</h3><p>Thôn Nam Hùng · Xã Nam Trực<br>Ninh Bình</p><a href="https://www.google.com/maps/search/?api=1&query=Thon+Nam+Hung+Xa+Nam+Truc+Ninh+Binh+Viet+Nam" target="_blank" rel="noopener">Xem vị trí ↗</a></article>
+      </div>
+      <div class="intro-signoff reveal">“Love never fails”</div>
+    </section>
+
+    <section class="invitation-section section-pad" id="invitation">
+      <div class="section-kicker reveal">02 · THE INVITATION</div>
+      <div class="center-heading reveal"><p class="eyebrow">SAVE THE DATE</p><h2>Ngày vui của chúng mình</h2><p>Rất mong bạn dành thời gian đến chung vui và gửi lời chúc phúc cho hai gia đình.</p></div>
+      <div class="event-grid">
+        <article class="event-card reveal" data-tilt data-morph-scroll="card">
+          <div class="event-top"><span class="event-seal">Q</span><span class="eyebrow">THE BRIDE'S FAMILY</span></div>
+          <p class="event-type">LỄ VU QUY</p><div class="event-date"><strong>29</strong><span>CHỦ NHẬT<br>THÁNG 11 · 2026</span></div>
+          <p class="event-time">13:00</p><h3>TIỂU HỌC NAM HÙNG</h3><p>Xã Nam Trực · Ninh Bình</p>
+          <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Truong+Tieu+Hoc+Nam+Hung+Xa+Nam+Truc+Ninh+Binh+Viet+Nam" target="_blank" rel="noopener">XEM VỊ TRÍ <span>↗</span></a>
+        </article>
+        <article class="event-card event-card-dark reveal" data-tilt data-morph-scroll="card">
+          <div class="event-top"><span class="event-seal">V</span><span class="eyebrow">THE GROOM'S FAMILY</span></div>
+          <p class="event-type">LỄ THÀNH HÔN</p><div class="event-date"><strong>29</strong><span>CHỦ NHẬT<br>THÁNG 11 · 2026</span></div>
+          <p class="event-time">13:00</p><h3>NHÀ HÀNG MINH NGUYỆT</h3><p>Đường Thích Thế Long · Xã Cổ Lễ · Ninh Bình</p>
+          <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Nha+Hang+Minh+Nguyet+Duong+Thich+The+Long+Xa+Co+Le+Ninh+Binh+Viet+Nam" target="_blank" rel="noopener">XEM VỊ TRÍ <span>↗</span></a>
+        </article>
+      </div>
+      <div class="reception-row reveal" data-morph-scroll="row"><div><span class="eyebrow">WEDDING RECEPTION</span><h3>Tiệc mừng thân mật</h3></div><div><strong>10:00 · 29.11.2026</strong><span>Trường Tiểu học Nam Hùng · Xã Nam Trực · Ninh Bình</span><a href="https://www.google.com/maps/search/?api=1&query=Truong+Tieu+Hoc+Nam+Hung+Xa+Nam+Truc+Ninh+Binh+Viet+Nam" target="_blank" rel="noopener">Chỉ đường ↗</a></div><div><strong>10:00 · 29.11.2026</strong><span>Nhà hàng Minh Nguyệt · Đường Thích Thế Long · Xã Cổ Lễ · Ninh Bình</span><a href="https://www.google.com/maps/search/?api=1&query=Nha+Hang+Minh+Nguyet+Duong+Thich+The+Long+Xa+Co+Le+Ninh+Binh+Viet+Nam" target="_blank" rel="noopener">Chỉ đường ↗</a></div></div>
+    </section>
+
+    <section class="save-date-section">
+      <div class="save-date-image photo-tilt" data-tilt data-image-transform data-morph-scroll="image"><img class="js-photo" src="assets/Trang cuối.jpg" alt="Khoảnh khắc hạnh phúc của cô dâu chú rể" loading="lazy"></div>
+      <div class="save-date-content reveal" data-morph-scroll="panel"><p class="eyebrow">COUNTING DOWN TO FOREVER</p><h2>Save<br>the Date</h2><p class="save-date-line">28 — 29 · 11 · 2026</p><p>Hẹn gặp bạn trong ngày đặc biệt nhất của chúng mình.</p><div class="countdown" id="countdown"><div data-morph-scroll="tile"><strong id="days">00</strong><span>NGÀY</span></div><div data-morph-scroll="tile"><strong id="hours">00</strong><span>GIỜ</span></div><div data-morph-scroll="tile"><strong id="minutes">00</strong><span>PHÚT</span></div><div data-morph-scroll="tile"><strong id="seconds">00</strong><span>GIÂY</span></div></div><a href="#calendar" class="text-link">XEM LỊCH CƯỚI ↗</a></div>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery">
+      <div class="section-kicker reveal">03 · WEDDING ALBUM</div>
+      <div class="center-heading reveal"><p class="eyebrow">A FEW OF OUR FAVOURITE MOMENTS</p><h2>Album ảnh</h2><p>Lưu giữ những khoảnh khắc đẹp nhất trên hành trình của chúng mình.</p></div>
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-tall reveal" data-tilt data-morph-scroll="image" data-photo="0" aria-label="Xem ảnh cưới 1"><img class="js-photo" src="assets/LEO08078.jpg" alt="Cặp đôi trong trang phục cưới" loading="lazy"><span>01</span></button>
+        <button class="gallery-item reveal" data-tilt data-morph-scroll="image" data-photo="1" aria-label="Xem ảnh cưới 2"><img class="js-photo" src="assets/LEO08165.jpg" alt="Cô dâu chú rể bên nhau" loading="lazy"><span>02</span></button>
+        <button class="gallery-item reveal" data-tilt data-morph-scroll="image" data-photo="2" aria-label="Xem ảnh cưới 3"><img class="js-photo" src="assets/LEO09408.jpg" alt="Khoảnh khắc cô dâu chú rể" loading="lazy"><span>03</span></button>
+        <button class="gallery-item reveal" data-tilt data-morph-scroll="image" data-photo="3" aria-label="Xem ảnh cưới 4"><img class="js-photo" src="assets/LEO09817.jpg" alt="Ảnh chân dung đôi" loading="lazy"><span>04</span></button>
+        <button class="gallery-item reveal" data-tilt data-morph-scroll="image" data-photo="4" aria-label="Xem ảnh cưới 5"><img class="js-photo" src="assets/LEO09936.jpg" alt="Ảnh cưới ngọt ngào" loading="lazy"><span>05</span></button>
+        <button class="gallery-item reveal" data-tilt data-morph-scroll="image" data-photo="5" aria-label="Xem ảnh cưới 6"><img class="js-photo" src="assets/LEO08207.jpg" alt="Cô dâu chú rể trong ngày cưới" loading="lazy"><span>06</span></button>
+      </div>
+      <p class="gallery-hint">Chạm vào ảnh để xem toàn màn hình · Vuốt hoặc dùng phím mũi tên để chuyển ảnh</p>
+    </section>
+
+    <section class="rsvp-section section-pad" id="rsvp">
+      <div class="rsvp-photo photo-tilt" data-tilt data-morph-scroll="image"><img class="js-photo" src="assets/LEO08207.jpg" alt="Ảnh cưới của Minh và Dương" loading="lazy"><div class="rsvp-photo-caption">WE CAN'T WAIT TO SEE YOU</div></div>
+      <div class="rsvp-content reveal" data-morph-scroll="panel"><div class="section-kicker">04 · R.S.V.P</div><p class="eyebrow">KINDLY REPLY</p><h2>Xác nhận<br>tham dự</h2><p class="rsvp-lead">Sự hiện diện của bạn là niềm vui và vinh hạnh của chúng mình. Hãy xác nhận để hai gia đình chuẩn bị được chu đáo hơn nhé!</p>
+        <form id="rsvpForm" class="form-card" data-morph-scroll="card">
+          <label for="rsvpName">Họ và tên</label><input id="rsvpName" name="name" autocomplete="name" required maxlength="80" placeholder="Nhập tên của bạn">
+          <fieldset><legend>Bạn sẽ tham dự chứ?</legend><label class="radio-option"><input type="radio" name="attendance" value="Tham dự" checked><span>Tham dự</span></label><label class="radio-option"><input type="radio" name="attendance" value="Rất tiếc, tôi bận"><span>Rất tiếc, tôi bận</span></label></fieldset>
+          <label for="guestCount">Số lượng người tham dự</label><select id="guestCount" name="guests"><option value="1">1 người</option><option value="2">2 người</option><option value="3">3 người</option><option value="4">4 người</option><option value="5">5 người</option></select>
+          <label for="guestSide">Bạn là khách mời của</label><select id="guestSide" name="side"><option>Nhà trai</option><option>Nhà gái</option><option>Cả hai gia đình</option></select>
+          <label for="rsvpMessage">Lời nhắn (không bắt buộc)</label><textarea id="rsvpMessage" name="message" rows="3" maxlength="350" placeholder="Gửi lời nhắn đến cô dâu chú rể..."></textarea>
+          <button class="button button-dark" type="submit">GỬI XÁC NHẬN <span>♡</span></button><p class="form-feedback" id="rsvpFeedback" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="timeline-section section-pad">
+      <div class="section-kicker reveal">05 · WEDDING TIMELINE</div><div class="center-heading reveal"><p class="eyebrow">THE DAY WE SAY I DO</p><h2>Lịch trình ngày cưới</h2><p>Cùng chúng mình đánh dấu những khoảnh khắc đáng nhớ.</p></div>
+      <div class="timeline">
+        <div class="timeline-item reveal" data-morph-scroll="row"><span class="timeline-time">10:00<br><small>29.11</small></span><span class="timeline-dot"></span><div><h3>Tiệc mừng nhà gái</h3><p>Trường Tiểu học Nam Hùng · Xã Nam Trực, Ninh Bình</p></div></div>
+        <div class="timeline-item reveal" data-morph-scroll="row"><span class="timeline-time">13:00<br><small>29.11</small></span><span class="timeline-dot"></span><div><h3>Lễ vu quy</h3><p>Trường Tiểu học Nam Hùng · Xã Nam Trực, Ninh Bình</p></div></div>
+        <div class="timeline-item reveal" data-morph-scroll="row"><span class="timeline-time">10:00<br><small>29.11</small></span><span class="timeline-dot"></span><div><h3>Tiệc mừng nhà trai</h3><p>Nhà hàng Minh Nguyệt · Đường Thích Thế Long, Xã Cổ Lễ, Ninh Bình</p></div></div>
+        <div class="timeline-item reveal" data-morph-scroll="row"><span class="timeline-time">13:00<br><small>29.11</small></span><span class="timeline-dot"></span><div><h3>Lễ thành hôn</h3><p>Nhà hàng Minh Nguyệt · Đường Thích Thế Long, Xã Cổ Lễ, Ninh Bình</p></div></div>
+      </div>
+    </section>
+
+    <section class="calendar-section section-pad" id="calendar">
+      <div class="calendar-copy reveal" data-morph-scroll="panel"><div class="section-kicker">06 · CALENDAR</div><p class="eyebrow">NOVEMBER 2026</p><h2>Tháng của<br>yêu thương</h2><p>Đừng quên dành thời gian đến chung vui cùng chúng mình nhé!</p><div class="calendar-legend"><span></span> Ngày cưới của chúng mình</div></div>
+      <div class="calendar-card reveal" data-morph-scroll="card"><div class="calendar-head"><button id="prevMonth" aria-label="Tháng trước" disabled>‹</button><h3>THÁNG 11 <span>2026</span></h3><button id="nextMonth" aria-label="Tháng sau" disabled>›</button></div><div class="calendar-grid" id="calendarGrid"></div><p class="calendar-note">28 — 29 · 11 · 2026 <span>♡</span></p></div>
+    </section>
+
+    <section class="gift-section section-pad">
+      <div class="section-kicker reveal">07 · WEDDING GIFT</div><div class="gift-card reveal" data-morph-scroll="card"><div class="gift-copy"><p class="eyebrow">A LITTLE TOKEN OF LOVE</p><h2>Món quà<br>yêu thương</h2><p>Món quà dù lớn hay nhỏ đều là lời chúc tốt đẹp mà chúng mình luôn ghi nhớ và trân trọng. Cảm ơn bạn vì đã nghĩ đến hai đứa.</p><p class="gift-thanks">With love, MINH & DƯƠNG</p></div><div class="gift-qr-grid" data-morph-scroll="tile"><figure class="gift-qr-wrap"><img src="assets/gift-qr-groom.png" alt="Mã QR mừng cưới của chú rể Nguyễn Hoàng Minh"><figcaption><strong>CHÚ RỂ</strong><span>Nguyễn Hoàng Minh</span><small>Techcombank<br>1913 5460 8340 19</small></figcaption></figure><figure class="gift-qr-wrap"><img src="assets/gift-qr-bride.png" alt="Mã QR mừng cưới của cô dâu Hoàng Thùy Dương"><figcaption><strong>CÔ DÂU</strong><span>Hoàng Thùy Dương</span><small>Techcombank<br>1903 5003 5880 16</small></figcaption></figure></div></div>
+    </section>
+
+    <section class="dress-section">
+      <div class="dress-image" data-image-transform data-morph-scroll="image"><img class="js-photo" src="assets/Trang 8.jpg" alt="Cô dâu và chú rể" loading="lazy"></div>
+      <div class="dress-copy reveal" data-morph-scroll="panel"><p class="eyebrow">DRESS CODE</p><h2> cùng sẻ chia<br>niềm vui</h2><p>Chúng mình rất mong được đón tiếp bạn trong trang phục lịch sự, trang nhã để cùng tạo nên những khoảnh khắc thật đẹp.</p><div class="dress-swatches"><span></span><span></span><span></span><span></span></div><small>NEUTRAL · CREAM · EARTH TONES</small></div>
+    </section>
+
+    <section class="closing-section" id="thankyou" data-image-transform>
+      <img class="closing-photo js-photo" src="assets/Trang cuối.jpg" alt="Ảnh kết thiệp cưới" loading="lazy">
+      <div class="closing-overlay"></div><div class="closing-content reveal" data-morph-scroll="panel"><p class="eyebrow">OUR BIG DAY · 29.11.2026</p><h2>Thank<br><i>you!</i></h2><p>Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi.</p><div class="closing-names">Nguyễn Hoàng Minh <span>&</span> Hoàng Thùy Dương</div><a href="#home" class="back-top">BACK TO TOP ↑</a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>MADE WITH LOVE</span><span>M & D · 2026</span><button id="footerWish">GỬI LỜI CHÚC ♡</button></footer>
+
+  <div class="floating-actions"><button id="floatingMusic" aria-label="Bật hoặc tắt nhạc">♫</button><button id="floatingWish" aria-label="Gửi lời chúc">♡</button></div>
+
+  <div class="wish-modal" id="wishModal" hidden role="dialog" aria-modal="true" aria-labelledby="wishTitle">
+    <div class="wish-panel"><button class="modal-close" id="closeWishes" aria-label="Đóng">×</button><p class="eyebrow">A MESSAGE FOR THE COUPLE</p><h2 id="wishTitle">Gửi lời chúc</h2><p class="wish-intro">Những lời chúc của bạn sẽ là món quà thật đẹp dành cho Minh & Dương.</p>
+      <form id="wishForm"><label for="wishName">Tên của bạn</label><input id="wishName" name="name" required maxlength="80" placeholder="Nhập tên của bạn"><label for="wishText">Lời chúc</label><textarea id="wishText" name="message" rows="4" required minlength="2" maxlength="500" placeholder="Chúc hai bạn trăm năm hạnh phúc..."></textarea><button class="button button-dark" type="submit">GỬI LỜI CHÚC ♡</button><p class="form-feedback" id="wishFeedback" role="status"></p></form>
+      <div class="wish-divider"></div><div class="wish-list-head"><h3>Lời chúc gửi đến hai bạn</h3><span id="wishCount">0 lời chúc</span></div><div class="wish-list" id="wishList" aria-live="polite"></div><p class="storage-note" id="storageNote">Lời chúc đang được lưu trên thiết bị này. Muốn tất cả khách mời cùng xem, hãy cấu hình Supabase theo README.</p>
+    </div>
+  </div>
+
+  <div class="photo-viewer" id="photoViewer" hidden role="dialog" aria-modal="true" aria-label="Xem album ảnh"><button class="viewer-close" id="viewerClose" aria-label="Đóng">×</button><button class="viewer-arrow" id="viewerPrev" aria-label="Ảnh trước">‹</button><figure class="viewer-stage"><img id="viewerImage" alt="Ảnh cưới phóng to"><figcaption id="viewerCaption">01 / 06</figcaption></figure><button class="viewer-arrow" id="viewerNext" aria-label="Ảnh tiếp theo">›</button><div class="viewer-controls"><button id="zoomOut" aria-label="Thu nhỏ">−</button><button id="zoomReset">100%</button><button id="zoomIn" aria-label="Phóng to">+</button><button id="slideshow">▶ Trình chiếu</button></div><p class="viewer-hint">← → chuyển ảnh · + / − phóng to · Esc đóng</p></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
